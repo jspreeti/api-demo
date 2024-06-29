@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { deleteUser, getUsers } from "../services/apiService";
-import UserForm from "./UserForm";
+import { getUsers } from "../services/apiService";
+//import UserForm from "./UserForm";
 
 export default function UserInfo() {
   const [users, setUsers] = useState([]);
